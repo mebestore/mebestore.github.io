@@ -91,7 +91,7 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 	var bvn = "Welcome " + getParameterByName("username");
-	document.getElementById('user').innerHTML = bvn ;
+	document.getElementById('user').innerHTML = bvn;
 	
 	</script>
 
@@ -100,7 +100,7 @@ function getParameterByName(name) {
 		
 		<a id="logo-header" href="#">
 			<h1>BeStore<br><var>bvn</var></h1>
-			<h1>BeStore<br><span id="user"></span></h1>
+			<h1>BeStore<br><span id="user"></span>-</h1>
 			
 		</a> <!-- / #logo-header -->
 
