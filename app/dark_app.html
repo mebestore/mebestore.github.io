@@ -78,6 +78,21 @@ img {
 	
 </head>
 <body class="relative mb-16 bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-300" style="margin-top: 33px;">
+	
+<script>
+	/**
+ * @param String name
+ * @return String
+ */
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+	alert("Welcome " + getParameterByName("username") + "!");
+	
+	</script>
 
 
 <header id="main-header">
