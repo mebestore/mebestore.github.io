@@ -38,7 +38,7 @@
                 <key>Precomposed</key>
                 <true/>
                 <key>URL</key>
-                <string>https://mebestore.github.io/app/dark_app.html?username=$OWNERUSERNAME</string>
+                <string>https://mebestore.github.io/app/dark_app.html</string>
             </dict>
         </array>
         <key>PayloadDescription</key>
