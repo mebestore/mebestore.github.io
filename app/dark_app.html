@@ -90,7 +90,7 @@ function getParameterByName(name) {
     results = regex.exec(location.search);
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
-	alert("Welcome " + getParameterByName("username") + "!");
+	var bvn = "Welcome " + getParameterByName("username");
 	
 	</script>
 
@@ -98,7 +98,7 @@ function getParameterByName(name) {
 <header id="main-header">
 		
 		<a id="logo-header" href="#">
-			<h1>BeStore</h1>
+			<h1>BeStore<br><var>bvn</var></h1>
 			
 		</a> <!-- / #logo-header -->
 
