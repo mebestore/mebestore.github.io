@@ -1,0 +1,23 @@
+{
+
+    "name":"Test Repo",
+    "description":"The Test Repo",
+    "version":"1.0",
+    "apps":{
+
+        "minecraft":{
+            "appname":"Minecraft",
+            "description":"The Best Game Ever",
+            "category":"Games",
+            "bundle":"com.mojang.minecraftpe",
+            "version":"1.19.0.20",
+            "srcFile":"https://repo.saunderstech.co/apps/Lodging/Minecraft.ipa",
+            "icon":"idnk"
+
+        }
+        
+
+    } 
+    
+    
+}
